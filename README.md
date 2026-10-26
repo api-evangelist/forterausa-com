@@ -64,5 +64,19 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Forterausa is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio; backed by khosla-ventures) and added to the network as a stub for full-pipeline profiling.
-- https://forterausa.com/
+Forterausa, now operating as Fortera Global, develops low‑carbon cement technologies that reduce CO₂ emissions in construction. The company offers the ReAct product line and ReCarb plants, providing data, documentation, and carbon credit solutions to accelerate sustainable building practices worldwide. Backed by Khosla Ventures and other investors, Fortera aims to scale economical, low‑CO₂ cement production for global infrastructure projects.
+
+**Areas:** Company · Low-Carbon · Cement · Sustainability · Technology
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://forteraglobal.com/)
+- [Privacy policy](https://forteraglobal.com/privacy-policy/)
+
+**APIs profiled:** 1
+
+## API Evangelist rating
+
+Not yet rated. See [apis.io/providers/forterausa-com/](https://apis.io/providers/forterausa-com/).

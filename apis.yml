@@ -1,25 +1,76 @@
 aid: forterausa-com
+
 name: Forterausa
-description: 'Forterausa is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio;
-  backed by khosla-ventures) and added to the network as a stub for full-pipeline profiling.'
+
+description: Forterausa, now operating as Fortera Global, develops low‑carbon cement technologies that reduce CO₂ emissions in construction. The
+  company offers the ReAct product line and ReCarb plants, providing data, documentation, and carbon credit solutions to accelerate sustainable
+  building practices worldwide. Backed by Khosla Ventures and other investors, Fortera aims to scale economical, low‑CO₂ cement production for
+  global infrastructure projects.
+
 url: https://raw.githubusercontent.com/api-evangelist/forterausa-com/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-26 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-25'
+
 modified: '2026-10-25'
+
 tags:
 - Company
-apis: []
+- Low-Carbon
+- Cement
+- Sustainability
+- Technology
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
+common:
+- type: Hosts
+  url: hosts/forterausa-com-hosts.yml
+- type: Vendors
+  url: vendors/forterausa-com-vendors.yml
+- type: PrivacyPolicy
+  url: https://forteraglobal.com/privacy-policy/
+- type: Newsroom
+  url: https://forteraglobal.com/news/
+- type: Leadership
+  url: https://forteraglobal.com/leadership/
+- type: DomainSecurity
+  url: security/forterausa-com-domain-security.yml
+- type: Website
+  url: https://forteraglobal.com/
+
+apis:
+- name: Fortera Global API
+  description: API documentation and developer resources for Fortera Global (formerly Forterausa)
+  humanURL: https://forteraglobal.com/
+  aid: forterausa-com:fortera-global-api
+
 x-backed-by:
 - khosla-ventures
-common:
-- type: Website
-  url: https://forterausa.com/
+
+x-coverage:
+  state: unreadable
+  reason: no-machine-readable-spec
+  detail: No OpenAPI, AsyncAPI, GraphQL, or other contract found despite documentation host presence.
+  evidence:
+  - url: https://api.forterausa.com/openapi.json
+    status: 0
+  checked: '2026-10-26'
+x-enrichment:
+  date: '2026-10-26'
+  status: enriched
+  artifacts_added: 7
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local
